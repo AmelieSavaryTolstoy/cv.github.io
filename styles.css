@@ -135,10 +135,11 @@ h3{
 .skills {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* 4 colonnes */
-  gap: 10px; /* Espacement entre les éléments */
+  gap: 15px; /* Espacement entre les icônes */
   list-style: none;
   padding: 0;
   text-align: center;
+  justify-content: center;
 }
 
 .skills li {
@@ -146,11 +147,13 @@ h3{
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  text-align: center;
 }
 
 .logo {
-  width: 40px; /* Ajuste la taille des logos */
-  height: auto;
-  max-height: 40px;
+  width: 50px; /* Taille uniforme des icônes */
+  height: 50px;
+  object-fit: contain;
   margin-bottom: 5px;
 }
+
