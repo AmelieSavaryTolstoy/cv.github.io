@@ -131,3 +131,7 @@ h3{
 .experience-list{
   list-style-type: circle;
 }
+
+.logo{
+  width: 100px;
+}
