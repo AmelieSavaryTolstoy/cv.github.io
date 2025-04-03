@@ -63,8 +63,9 @@ h3{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: "left-column right-column right-column";
-  width: 1200px;
-  margin: 100px auto;
+  width: 80%; /* Ajuste la largeur pour laisser des marges blanches */
+  max-width: 1000px; /* Empêche le CV d’être trop large */
+  height: 100vh; 
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
