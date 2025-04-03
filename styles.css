@@ -154,3 +154,8 @@ h3{
   height: auto;
   margin-bottom: 5px;
 }
+
+.container-text-competence {
+  display: flex;
+  flex-direction: row;
+}
