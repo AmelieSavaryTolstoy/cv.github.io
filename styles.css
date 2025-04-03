@@ -154,21 +154,3 @@ h3{
   height: auto;
   margin-bottom: 5px;
 }
-
-/* Ajustement pour la deuxième ligne (3 icônes centrées) */
-.skills-container li:nth-child(n+5) {
-  grid-column: span 1;
-}
-
-.skills-container li:nth-child(5) {
-  grid-column: 2 / span 1; /* Centre la 5ème icône */
-}
-
-.skills-container li:nth-child(6) {
-  grid-column: 3 / span 1; /* Centre la 6ème icône */
-}
-
-.skills-container li:nth-child(7) {
-  grid-column: 4 / span 1; /* Centre la 7ème icône */
-}
-
