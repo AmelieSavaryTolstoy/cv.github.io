@@ -61,7 +61,7 @@ h3{
 
 .cv-container {
     width: 80%; /* Ajuste la largeur du CV pour laisser une bordure sur les côtés */
-    max-width: 1000px; /* Empêche le CV de devenir trop large sur les grands écrans */
+    max-width: 2000px; /* Empêche le CV de devenir trop large sur les grands écrans */
     background-color: white; /* Fond blanc pour le CV */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Ajoute une légère ombre */
     padding: 20px; /* Ajoute un peu d’espace intérieur */
