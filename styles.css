@@ -132,8 +132,43 @@ h3{
   list-style-type: circle;
 }
 
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 colonnes */
+  gap: 20px; /* Espacement entre les icônes */
+  list-style: none;
+  padding: 0;
+  max-width: 500px; /* Ajuste selon ton besoin */
+  margin: auto; /* Centre la grille */
+}
+
+.skills-container li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
 .logo {
   width: 40px; /* Taille uniforme des icônes */
   height: auto;
   margin-bottom: 5px;
 }
+
+/* Ajustement pour la deuxième ligne (3 icônes centrées) */
+.skills-container li:nth-child(n+5) {
+  grid-column: span 1;
+}
+
+.skills-container li:nth-child(5) {
+  grid-column: 2 / span 1; /* Centre la 5ème icône */
+}
+
+.skills-container li:nth-child(6) {
+  grid-column: 3 / span 1; /* Centre la 6ème icône */
+}
+
+.skills-container li:nth-child(7) {
+  grid-column: 4 / span 1; /* Centre la 7ème icône */
+}
+
