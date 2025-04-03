@@ -157,5 +157,5 @@ h3{
 
 .container-text-competence {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
