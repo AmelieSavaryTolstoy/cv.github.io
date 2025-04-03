@@ -133,8 +133,8 @@ h3{
 }
 
 .logo { 
-  width: 50px;
+  width: 30px;
   height: auto; /* Garde les proportions */
-  max-height: 50px; /* Définit une hauteur maximale */
+  max-height: 30px; /* Définit une hauteur maximale */
   object-fit: contain; 
 }
