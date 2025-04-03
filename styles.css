@@ -132,6 +132,9 @@ h3{
   list-style-type: circle;
 }
 
-.logo{
+.logo { 
   width: 100px;
+  height: auto; /* Garde les proportions */
+  max-height: 100px; /* Définit une hauteur maximale */
+  object-fit: contain; 
 }
