@@ -134,7 +134,7 @@ h3{
 
 .skills-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 colonnes */
+  grid-template-columns: repeat(3, 1fr); /* 4 colonnes */
   gap: 20px; /* Espacement entre les icônes */
   list-style: none;
   padding: 0;
